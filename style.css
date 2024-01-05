@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row {
   display: flex;
@@ -116,7 +116,7 @@ h3 {
   width: 226px;
 }
 .inp-text {
-  width: 226px
+  width: 226px;
 }
 .delete-img {
   height: 2em;
@@ -129,18 +129,18 @@ h3 {
 
 /* Completed */
 #completed-tasks .task-title {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .inp-text {
-  display: none
+  display: none;
 }
 
 .edit-mode .inp-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task-title {
