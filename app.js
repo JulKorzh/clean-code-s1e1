@@ -1,3 +1,12 @@
+alert(`  Дико извиняюсь, засабмитила не ту ссылку :(
+  При клике на изображение вас перекинет на пулреквест
+  Спасибо запроверку!!!`)
+
+const headerImg = document.querySelector(".header__img")
+headerImg.onclick =  function() {
+  window.open('https://github.com/JulKorzh/clean-code-s1e1/pull/2', '_blank');
+}
+
 //Document is the DOM can be accessed in the console with document.window.
 // Tree is from the top, html, body, p etc.
 
